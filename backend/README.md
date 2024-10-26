@@ -47,3 +47,14 @@
      - type:
        - `"module"`
    - added `../common`
+4. Added Jest for testing
+   - `npm install --save-dev jest ts-jest ts-node @types/jest @jest/globals`
+   - `npx jest --init`
+   - update `jest.config.ts`
+     - preset: `'ts-jest'`
+     - update moduleNameMapper and roots to 
+       - include backend and common
+     - ignoreCodes TS151001
+   - add example tests in `__tests__`
+   - update `.gitignore`
+     - added `coverage`
