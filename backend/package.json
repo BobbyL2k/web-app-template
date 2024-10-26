@@ -1,7 +1,13 @@
 {
   "name": "backend",
   "version": "0.0.0",
-  "scripts": {},
+  "scripts": {
+    "lint": "biome lint",
+    "lint:fix": "biome lint --write"
+  },
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
+  }
 }
