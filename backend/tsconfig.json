@@ -111,15 +111,16 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": [
+    // source
     "src/**/*.ts",
     "lib/**/*.ts",
     "__tests__/**/*.ts",
+    // common
     "../common/lib/**/*.ts",
     "../common/src/**/*.ts",
     "../common/__tests__/**/*.ts",
   ],
   "exclude": [
-    "../common/lib/**/*.test.ts"
   ],
   "tsc-alias": {
     "resolveFullPaths": true
