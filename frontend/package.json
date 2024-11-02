@@ -1,0 +1,27 @@
+{
+    "name": "frontend",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "parcel serve src/index.html",
+        "build": "parcel build src/index.html",
+        "build:watch": "parcel watch src/index.html",
+        "clean": "rm -rf dist coverage",
+        "lint": "biome check",
+        "lint:fix": "biome check --write"
+    },
+    "author": "",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "parcel": "^2.12.0",
+        "process": "^0.11.10",
+        "typescript": "^5.6.3"
+    }
+}
