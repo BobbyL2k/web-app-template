@@ -1,5 +1,5 @@
-import { backendEiei } from "@/backendEiei";
 import assert from "@/lib/utils/assert.js";
+import { sum } from "./sum";
 
-backendEiei();
+console.log(sum(1, 1));
 assert(true, "assert error");
