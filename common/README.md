@@ -20,3 +20,7 @@ Instructions on how this project was setup.
         }
         ```
     - Added `lint`, `lint:fix` scripts to `package.json`
+3. Added minimal code for testing import from backend
+    - See step 5  in `../backend`
+    - Added `src` directory with `sub.ts` file
+    - Added `lib` directory with `assert.ts` file

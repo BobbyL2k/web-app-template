@@ -52,3 +52,18 @@ Instructions on how this project was setup.
         - Added `lib` directory with `add.ts` file
         - Added `dist` directory to `.gitignore`
         - Added `start`, `build`, `build:watch`, `clean` scripts to `package.json`
+5. Set up backend project to be able to import common code
+    - See step 3 in `../common`
+    - Updated `start` script in `package.json` to account for common code
+    - Updated `tsconfig.json` with
+        ```json
+        {
+            "compilerOptions": {
+                "paths": {
+                    "@/lib/*": ["./lib/*", "../common/lib/*"],
+                    "@/*": ["./src/*", "../common/src/*"],
+                },
+            }
+        }
+        ```
+    - Updated `index.ts` to test importing common code
