@@ -3,6 +3,10 @@
     "version": "0.0.0",
     "description": "",
     "scripts": {
+        "start": "node dist/src/index.js",
+        "build": "tsc && tsc-alias",
+        "build:watch": "tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
+        "clean": "rm -rf dist",
         "lint": "biome check",
         "lint:fix": "biome check --write"
     },

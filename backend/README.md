@@ -47,3 +47,8 @@ Instructions on how this project was setup.
             }
         }
         ```
+    - Added minimal code for testing TypeScript compilation
+        - Added `src` directory with `index.ts` file
+        - Added `lib` directory with `add.ts` file
+        - Added `dist` directory to `.gitignore`
+        - Added `start`, `build`, `build:watch`, `clean` scripts to `package.json`
