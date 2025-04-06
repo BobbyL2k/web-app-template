@@ -89,3 +89,4 @@ Instructions on how this project was setup.
         }
         ```
     - Added `setup` scripts to `package.json`
+    - Added example code demonstrating `ts-runtime-checks` in `src/index.ts`
