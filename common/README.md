@@ -19,3 +19,4 @@ Instructions on how this project was setup.
             },
         }
         ```
+    - Added `lint`, `lint:fix` scripts to `package.json`
