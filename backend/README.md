@@ -1,5 +1,11 @@
 # Isomorphic TypeScript Web Backend
 
+## Setup
+
+1. After initial clone, run
+    - `npm install` to install all dependencies.
+    - `npm run setup` to install TypeScript patches for `ts-runtime-checks`
+
 ## Project Setup
 
 Instructions on how this project was setup.
@@ -67,5 +73,19 @@ Instructions on how this project was setup.
         }
         ```
     - Updated `index.ts` to test importing common code
-6. Setup `ts-runtime-checks`
+6. Set up `ts-runtime-checks`
     - `npm install --save-dev ts-runtime-checks ts-patch`
+    - Updated `README.md` with instructions for setting up `ts-runtime-checks`
+    - Updated `tsconfig.json` with
+        ```json
+        {
+            "compilerOptions": {
+                "plugins": [
+                    {
+                        "transform": "ts-runtime-checks"
+                    }
+                ]
+            }
+        }
+        ```
+    - Added `setup` scripts to `package.json`

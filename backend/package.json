@@ -4,6 +4,7 @@
     "description": "",
     "scripts": {
         "start": "node dist/backend/src/index.js",
+        "setup": "ts-patch install",
         "build": "tsc && tsc-alias",
         "build:watch": "tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
         "clean": "rm -rf dist",
