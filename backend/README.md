@@ -29,3 +29,21 @@ Instructions on how this project was setup.
     - `npm install typescript tsc-alias concurrently @types/node --save-dev`
 4. Added minimal TypeScript code for testing compilation
     - Initialized `tsconfig.json` with `npx tsc --init`
+    - Updated `tsconfig.json` with
+        ```json
+        {
+            "compilerOptions": {
+                "target": "es2022",
+                "module": "node16",
+                "paths": {
+                    "@/lib/*": ["./lib/*"],
+                    "@/*": ["./src/*"],
+                },
+                "sourceMap": true,
+                "outDir": "./dist",
+                "allowSyntheticDefaultImports": false,
+                "esModuleInterop": false,
+                "forceConsistentCasingInFileNames": true,
+            }
+        }
+        ```
