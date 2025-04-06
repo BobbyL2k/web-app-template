@@ -16,6 +16,8 @@
         "@biomejs/biome": "1.9.4",
         "@types/node": "^22.14.0",
         "concurrently": "^9.1.2",
+        "ts-patch": "^3.3.0",
+        "ts-runtime-checks": "^0.6.3",
         "tsc-alias": "^1.8.13",
         "typescript": "^5.8.3"
     }

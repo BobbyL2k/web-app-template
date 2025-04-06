@@ -67,3 +67,5 @@ Instructions on how this project was setup.
         }
         ```
     - Updated `index.ts` to test importing common code
+6. Setup `ts-runtime-checks`
+    - `npm install --save-dev ts-runtime-checks ts-patch`
