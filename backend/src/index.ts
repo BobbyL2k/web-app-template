@@ -7,13 +7,13 @@ console.log("1 + 2 =", add(1, 2));
 assert(sub(1, 2) === -1);
 
 interface User {
-	name: string;
-	id: number;
+    name: string;
+    id: number;
 }
 
 function validate(user: Assert<User>) {
-	console.log(user);
-	// Your code...
+    console.log(user);
+    // Your code...
 }
 
 validate({ name: "abc", id: 4 });
