@@ -27,3 +27,5 @@ Instructions on how this project was setup.
     - Added `lint`, `lint:fix` scripts to `package.json`
 3. Installed TypeScript dependencies
     - `npm install typescript tsc-alias concurrently @types/node --save-dev`
+4. Added minimal TypeScript code for testing compilation
+    - Initialized `tsconfig.json` with `npx tsc --init`
