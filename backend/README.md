@@ -90,3 +90,7 @@ Instructions on how this project was setup.
         ```
     - Added `setup` scripts to `package.json`
     - Added example code demonstrating `ts-runtime-checks` in `src/index.ts`
+7. Added `uvu` for testing
+    - `npm install --save-dev uvu`
+    - Added example test in `tests/index.ts`
+    - Added `test` script to `package.json`

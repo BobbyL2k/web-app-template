@@ -8,6 +8,7 @@
         "build": "tsc && tsc-alias",
         "build:watch": "tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
         "clean": "rm -rf dist",
+        "test": "tsc && tsc-alias && uvu dist/backend/tests",
         "lint": "biome check",
         "lint:fix": "biome check --write"
     },
@@ -20,6 +21,7 @@
         "ts-patch": "^3.3.0",
         "ts-runtime-checks": "^0.6.3",
         "tsc-alias": "^1.8.13",
-        "typescript": "^5.8.3"
+        "typescript": "^5.8.3",
+        "uvu": "^0.5.6"
     }
 }
