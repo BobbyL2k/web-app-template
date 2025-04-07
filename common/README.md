@@ -24,3 +24,10 @@ Instructions on how this project was setup.
     - See step 5  in `../backend`
     - Added `src` directory with `sub.ts` file
     - Added `lib` directory with `assert.ts` file
+4. Added `uvu` for testing
+    - `npm install --save-dev typescript tsc-alias uvu`
+    - Added `tsconfig.json` for transpilation
+    - Added `dist` to `.gitignore`
+    - Added example test in `tests/index.ts`
+    - npm install --save-dev
+    - Added `test` script to `package.json`
